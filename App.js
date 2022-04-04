@@ -13,9 +13,12 @@ import AppText from "./app/components/AppText";
 import ViewImage from "./app/screens/ViewImage";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import ButtonComp from "./app/components/Button";
+import Card from "./app/components/Card";
+import ListingDetails from "./app/screens/ListingDetails";
+import MessagesScreen from "./app/screens/MessagesScreen";
 
 export default function App() {
-  return <WelcomeScreen />;
+  return <MessagesScreen />;
 }
 
 const styles = StyleSheet.create({
